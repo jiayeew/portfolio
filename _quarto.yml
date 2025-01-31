@@ -3,14 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "quarto"
+  title: "Jia Yee Wong"
   navbar:
     right:
       - about.qmd
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - text: CV
+        href: cv.pdf
+      
+      
+
 format:
   html:
     theme: cosmo
