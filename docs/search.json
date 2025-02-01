@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "cv/cv/cv/cv.html",
+    "href": "cv/cv/cv/cv.html",
+    "title": "My CV",
     "section": "",
-    "text": "About this blog"
+    "text": "Data Scientist undergraduate student with &lt;1 years of experience focusing on Statistical Modeling, Artificial Intelligence, and Data Pipeline."
+  },
+  {
+    "objectID": "cv/cv/cv/cv.html#light-rail-transit-database-model-sep-2024---dec-2024",
+    "href": "cv/cv/cv/cv.html#light-rail-transit-database-model-sep-2024---dec-2024",
+    "title": "My CV",
+    "section": "Light Rail Transit Database Model | Sep 2024 - Dec 2024",
+    "text": "Light Rail Transit Database Model | Sep 2024 - Dec 2024\n\nDeveloped and implemented a relational database model for a light rail transit system, connecting Omaha and Lincoln, Nebraska\nDesigned and implemented an optimized SQL schema and developed dynamic queries for practical applications\nCollected, transformed, and visualized geospatial data using MATLAB, applying piecewise linear approximations to model train routes, compute distances, and present routes on a geographic map"
+  },
+  {
+    "objectID": "cv/cv/cv/cv.html#deep-reinforcement-learning-agent-for-pac-man-aug-2024---dec-2024",
+    "href": "cv/cv/cv/cv.html#deep-reinforcement-learning-agent-for-pac-man-aug-2024---dec-2024",
+    "title": "My CV",
+    "section": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024",
+    "text": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024\n\nDeveloped a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness\nImplemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection\nConfigured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency\nMonitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi! I’m Jia Yee!",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -14,13 +35,6 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
@@ -28,10 +42,31 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi! I’m Jia Yee!",
+    "objectID": "cvcopy.html",
+    "href": "cvcopy.html",
+    "title": "My CV",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Scientist undergraduate student with &lt;1 years of experience focusing on Statistical Modeling, Artificial Intelligence, and Data Pipeline."
+  },
+  {
+    "objectID": "cvcopy.html#light-rail-transit-database-model-sep-2024---dec-2024",
+    "href": "cvcopy.html#light-rail-transit-database-model-sep-2024---dec-2024",
+    "title": "My CV",
+    "section": "Light Rail Transit Database Model | Sep 2024 - Dec 2024",
+    "text": "Light Rail Transit Database Model | Sep 2024 - Dec 2024\n\nDeveloped and implemented a relational database model for a light rail transit system, connecting Omaha and Lincoln, Nebraska\nDesigned and implemented an optimized SQL schema and developed dynamic queries for practical applications\nCollected, transformed, and visualized geospatial data using MATLAB, applying piecewise linear approximations to model train routes, compute distances, and present routes on a geographic map"
+  },
+  {
+    "objectID": "cvcopy.html#deep-reinforcement-learning-agent-for-pac-man-aug-2024---dec-2024",
+    "href": "cvcopy.html#deep-reinforcement-learning-agent-for-pac-man-aug-2024---dec-2024",
+    "title": "My CV",
+    "section": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024",
+    "text": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024\n\nDeveloped a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness\nImplemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection\nConfigured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency\nMonitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]
