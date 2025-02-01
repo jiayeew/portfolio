@@ -13,22 +13,22 @@ output:
     page_total: true
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
 # Summary
-
-Data Scientist undergraduate student with \<1 years of experience focusing on **Statistical Modeling, Artificial Intelligence, and Data Pipeline**.
+Data Scientist undergraduate student with <1 years of experience focusing on **Statistical Modeling, Artificial Intelligence, and Data Pipeline**.
 
 # Skills
-
 **Programming:** Python, SQL, R, HTML, JAVA\
 **Software:** Microsoft Office, Tableau, SAS, MATLAB\
 **Language:** English, Chinese, Cantonese, Malay, Korean
 
-# Education
+
+#  Education
 
 ```{r}
 library(tibble)
@@ -43,7 +43,8 @@ tribble(
 detailed_entries(Role, Company, Where, Dates, Details)
 ```
 
-# Work Experience
+
+#  Work Experience
 
 ```{r}
 tribble(
@@ -69,17 +70,17 @@ tribble(
 detailed_entries(Role, Company, Where, Dates, Details)
 ```
 
+
+
 # Projects
 
-## Light Rail Transit Database Model \| Sep 2024 - Dec 2024
+## Light Rail Transit Database Model | Sep 2024 - Dec 2024
+- Developed and implemented a relational database model for a light rail transit system, connecting Omaha and Lincoln, Nebraska
+- Designed and implemented an optimized SQL schema and developed dynamic queries for practical applications
+- Collected, transformed, and visualized geospatial data using MATLAB, applying piecewise linear approximations to model train routes, compute distances, and present routes on a geographic map
 
--   Developed and implemented a relational database model for a light rail transit system, connecting Omaha and Lincoln, Nebraska
--   Designed and implemented an optimized SQL schema and developed dynamic queries for practical applications
--   Collected, transformed, and visualized geospatial data using MATLAB, applying piecewise linear approximations to model train routes, compute distances, and present routes on a geographic map
-
-## Deep Reinforcement Learning Agent for Pac-Man \| Aug 2024 - Dec 2024
-
--   Developed a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness
--   Implemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection
--   Configured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency
--   Monitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness.
+## Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024
+- Developed a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness
+- Implemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection
+- Configured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency
+- Monitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness.
