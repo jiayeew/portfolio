@@ -1,0 +1,23 @@
+---
+title: "Thyroid Cancer Prediction Project"
+author: "Jia Yee Wong"
+date: "2025-02-03"
+categories: ["Kaggle","Machine Learning", "Data Visualization"]
+image: "thyroid.jpg"
+format: html
+---
+
+## **Thyroid Cancer Prediction**  
+
+- **Description:** A machine learning-based project that achieved **82.45% accuracy** by  analyzing the **Thyroid Cancer Risk Prediction Dataset** to predict cancer risk. The dataset consisted of **212,691 records** and **23 attributes**, obtained from Kaggle.  
+- **Technologies Used:** Kaggle, Machine Learning, Data Visualization  
+
+### **Confusion Matrix**
+Here is the confusion matrix for the model’s predictions:
+
+![Confusion Matrix](thyroid_matrix.jpg){width=400px}
+
+
+- **[View Project on GitHub](https://github.com/jiayeew/projects/blob/main/thyroid%20cancer%20prediction.ipynb){target="_blank"}**  
+
+---

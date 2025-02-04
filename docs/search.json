@@ -2,9 +2,9 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "Projects",
+    "title": "My Projects",
     "section": "",
-    "text": "About this blog"
+    "text": "&lt;div class=\"image\"&gt;\n  &lt;img class=\"image__img\" src=\"thyroid_copy.jpg\" alt=\"Thyroid Cancer\"&gt;\n  &lt;div class=\"image__overlay\"&gt;\n    &lt;div class=\"image__title\"&gt;Thyroid Cancer&lt;/div&gt;\n    &lt;p class=\"image__description\"&gt;\n      A machine learning project predicting thyroid cancer risk.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "about.html",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "Thyroid Cancer Prediction Project\n\n\n\n\n\n\nKaggle\n\n\nProjects\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Thyroid Cancer Prediction Project\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nData Visualization\n\n\n\n\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -82,5 +82,33 @@
     "title": "Thyroid Cancer Prediction Project",
     "section": "",
     "text": "Description\n_______________________________________________________________________________________________\nA thyroid cancer prediction project achieving 82.45% accuracy, using a Kaggle dataset with 212,691 records and 23 attributes."
+  },
+  {
+    "objectID": "project.html#thyroid-cancer-prediction-guide",
+    "href": "project.html#thyroid-cancer-prediction-guide",
+    "title": "My Projects",
+    "section": "",
+    "text": "Description: A machine learning-based project analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n#- View Project"
+  },
+  {
+    "objectID": "project.html#other-projects",
+    "href": "project.html#other-projects",
+    "title": "My Projects",
+    "section": "",
+    "text": "(You can add more projects following the same format)"
+  },
+  {
+    "objectID": "posts/thyroid_project_post/index.html",
+    "href": "posts/thyroid_project_post/index.html",
+    "title": "Thyroid Cancer Prediction Project",
+    "section": "",
+    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction-guide",
+    "href": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction-guide",
+    "title": "Thyroid Cancer Prediction Project",
+    "section": "",
+    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
   }
 ]

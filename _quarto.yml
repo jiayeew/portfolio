@@ -7,7 +7,7 @@ website:
   navbar:
     title: false 
     logo: logo.JPG
-    #logo-alt: "Alt text for logo"
+    logo-alt: "Home"
     right:
       - about.qmd
       - project.qmd
