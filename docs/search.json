@@ -2,7 +2,7 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "About",
+    "title": "Projects",
     "section": "",
     "text": "About this blog"
   },
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Thyroid Cancer Prediction Project\n\n\n\n\n\n\nKaggle\n\n\nProjects\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -75,5 +75,12 @@
     "title": "My CV",
     "section": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024",
     "text": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024\n\nDeveloped a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness\nImplemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection\nConfigured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency\nMonitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness."
+  },
+  {
+    "objectID": "posts/2:3:2025_project_post/index.html",
+    "href": "posts/2:3:2025_project_post/index.html",
+    "title": "Thyroid Cancer Prediction Project",
+    "section": "",
+    "text": "Description\n___________________________________________________________________________________________________\nA thyroid cancer prediction project achieving 82.45% accuracy, using a Kaggle dataset with 212,691 records and 23 attributes."
   }
 ]

@@ -3,8 +3,6 @@ title: "About"
 image: jiayeewong.JPG
 about:
   template: jolla
-  image-shape: round
-  image-width: 17em
   links:
     - icon: linkedin
       text: LinkedIn

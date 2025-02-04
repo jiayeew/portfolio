@@ -1,0 +1,13 @@
+---
+title: "Thyroid Cancer Prediction Project"
+author: "Jia Yee Wong"
+date: "2025-02-03"
+categories: [Kaggle, Projects, Machine Learning]
+image: "thyroid.jpg"
+---
+
+Description
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+A thyroid cancer prediction project achieving **82.45% accuracy**, using a **Kaggle dataset** with **212,691 records** and **23 attributes**.
