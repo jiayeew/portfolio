@@ -74,8 +74,8 @@ editor: visual
 </style>
 
 <div class="project-container">
-
   <div class="project-box" onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/thyroid_project_post/'">
-  <img src="thyroid_logo.jpg" alt="Thyroid Cancer">
+    <img src="thyroid_logo.jpg" alt="Thyroid Cancer" style="width: 200px; height: auto;">
+  </div>
 </div>
 ---
