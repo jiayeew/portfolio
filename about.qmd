@@ -1,8 +1,10 @@
 ---
 title: "About"
-image: profile.jpg
+image: jiayeewong.JPG
 about:
   template: jolla
+  image-shape: round
+  image-width: 17em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -12,4 +14,4 @@ about:
       href: https://github.com/jiayeew
 ---
 
-About this blog
+Hi there! I'm Jia Yee. I am a data science undergraduate student in the University of Nebraska-Lincoln focusing on Statistical Modeling, Artificial Intelligence, and Data Pipeline. Outside of school, I love exercising and binge watching dramas. Poke around my website to learn more!
