@@ -5,14 +5,23 @@ project:
 website:
   title: "Jia Yee Wong"
   navbar:
+    title: false 
+    logo: logo.JPG
+    #logo-alt: "Alt text for logo"
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
+      - project.qmd
       - text: CV
         href: cvcopy.pdf
       - text: Cover Letter
         href: covlet.pdf
+      - icon: github
+        href: https://github.com/
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Jia Yee Wong
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/samanthacsik/samanthacsik.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
       
       
 
