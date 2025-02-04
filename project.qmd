@@ -75,17 +75,7 @@ editor: visual
 
 <div class="project-container">
 
-  <div class="project-box" onclick="window.location='posts/thyroid_project_post/index.qmd'">
-    <div class="image">
-      <img class="image__img" src="thyroid_copy.jpg" alt="Thyroid Cancer">
-      <div class="image__overlay">
-        <div class="image__title">Thyroid Cancer</div>
-        <p class="image__description">
-          A machine learning project predicting thyroid cancer risk.
-        </p>
-      </div>
-    </div>
-  </div>
-
+  <div class="project-box" onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/thyroid_project_post/'">
+  <img src="thyroid_logo.jpg" alt="Thyroid Cancer">
 </div>
 ---

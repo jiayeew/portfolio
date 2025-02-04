@@ -4,7 +4,7 @@
     "href": "project.html",
     "title": "My Projects",
     "section": "",
-    "text": "&lt;div class=\"image\"&gt;\n  &lt;img class=\"image__img\" src=\"thyroid_copy.jpg\" alt=\"Thyroid Cancer\"&gt;\n  &lt;div class=\"image__overlay\"&gt;\n    &lt;div class=\"image__title\"&gt;Thyroid Cancer&lt;/div&gt;\n    &lt;p class=\"image__description\"&gt;\n      A machine learning project predicting thyroid cancer risk.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
+    "text": "&lt;img src=\"thyroid_logo.jpg\" alt=\"Thyroid Cancer\" style=\"width: 100%; height: auto; border-radius: 10px;\"&gt;"
   },
   {
     "objectID": "about.html",
@@ -102,7 +102,7 @@
     "href": "posts/thyroid_project_post/index.html",
     "title": "Thyroid Cancer Prediction Project",
     "section": "",
-    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub\n\n\nClick in to view more about the project"
   },
   {
     "objectID": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction-guide",
@@ -110,5 +110,12 @@
     "title": "Thyroid Cancer Prediction Project",
     "section": "",
     "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction",
+    "href": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction",
+    "title": "Thyroid Cancer Prediction Project",
+    "section": "",
+    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub\n\n\nClick in to view more about the project"
   }
 ]
