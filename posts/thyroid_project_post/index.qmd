@@ -5,13 +5,12 @@ date: "2025-02-03"
 categories: ["Kaggle", "Machine Learning", "Data Visualization"]
 image: "thyroid_logo2.jpg"
 format: html
-description: "A machine learning project predicting cancer, achieving 82.45% accuracy."
+description: "A machine learning project predicting cancer with an 82.45% accuracy."
 ---
 
 ## **Thyroid Cancer Prediction through Machine Learning methods**
 
--   **Description:** A machine learning-based project that achieved **82.45% accuracy** by analyzing the **Thyroid Cancer Risk Prediction Dataset** to predict cancer risk. The dataset consisted of **212,691 records** and **23 attributes**, obtained from Kaggle.\
--   **Technologies Used:** Kaggle, Machine Learning, Data Visualization
+-   **Description:** The project utilizes machine learning to predict thyroid cancer risk based on patient data obtained from [Kaggle](https://www.kaggle.com/datasets/ankushpanday1/thyroid-cancer-risk-prediction-dataset/data). The datasets were preprocessed by encoding categorical variables and standardizing numerical features. A **Random Forest Classifier** was trained on an 80-20 train-test split, achieving an **82.45% accuracy**. The model’s performance was evaluated using precision, recall, F1-score, and a confusion matrix visualization. 
 
 ### **Confusion Matrix**
 

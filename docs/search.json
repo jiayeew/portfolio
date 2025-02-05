@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "Thyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nData Visualization\n\n\n\nA machine learning project predicting cancer, achieving 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
+    "text": "Thyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nData Visualization\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -102,7 +102,7 @@
     "href": "posts/thyroid_project_post/index.html",
     "title": "Thyroid Cancer Prediction",
     "section": "",
-    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+    "text": "Description: The project utilizes machine learning to predict thyroid cancer risk based on patient data obtained from Kaggle. The datasets were preprocessed by encoding categorical variables and standardizing numerical features. A Random Forest Classifier was trained on an 80-20 train-test split, achieving an 82.45% accuracy. The model’s performance was evaluated using precision, recall, F1-score, and a confusion matrix visualization.\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
   },
   {
     "objectID": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction-guide",
@@ -130,6 +130,6 @@
     "href": "posts/thyroid_project_post/index.html#thyroid-cancer-prediction-through-machine-learning-methods",
     "title": "Thyroid Cancer Prediction",
     "section": "",
-    "text": "Description: A machine learning-based project that achieved 82.45% accuracy by analyzing the Thyroid Cancer Risk Prediction Dataset to predict cancer risk. The dataset consisted of 212,691 records and 23 attributes, obtained from Kaggle.\n\nTechnologies Used: Kaggle, Machine Learning, Data Visualization\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+    "text": "Description: The project utilizes machine learning to predict thyroid cancer risk based on patient data obtained from Kaggle. The datasets were preprocessed by encoding categorical variables and standardizing numerical features. A Random Forest Classifier was trained on an 80-20 train-test split, achieving an 82.45% accuracy. The model’s performance was evaluated using precision, recall, F1-score, and a confusion matrix visualization.\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
   }
 ]
