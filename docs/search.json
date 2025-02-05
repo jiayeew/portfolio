@@ -4,7 +4,7 @@
     "href": "project.html",
     "title": "My Projects",
     "section": "",
-    "text": "&lt;img src=\"thyroid_logo.jpg\" alt=\"Thyroid Cancer\" style=\"width: 200px; height: auto;\"&gt;"
+    "text": "{width=5 height=5}"
   },
   {
     "objectID": "about.html",
