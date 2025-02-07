@@ -11,10 +11,8 @@ website:
     right:
       - about.qmd
       - project.qmd
-      - text: CV
-        href: cvcopy.pdf
-      - text: Cover Letter
-        href: covlet.pdf
+      - text: Resume
+        href: Resume.pdf
       - icon: github
         href: https://github.com/
   page-footer:
