@@ -2,7 +2,7 @@
 title: "Thyroid Cancer Prediction"
 author: "Jia Yee Wong"
 date: "2025-02-03"
-categories: ["Kaggle", "Machine Learning", "Data Visualization"]
+categories: ["Kaggle", "Machine Learning", "Python"]
 image: "thyroid_logo2.jpg"
 format: html
 description: "A machine learning project predicting cancer with an 82.45% accuracy."
