@@ -1,14 +1,14 @@
 ---
-title: "King County House Sales"
+title: "King County House Sales: Trends & Insights Dashboard"
 author: "Jia Yee Wong"
 date: "2025-02-12"
 categories: ["Tableau", "Data Visualization"]
-#image: ""
+image: "kinglogo.png"
 format: html
-description: "An interactive dashboard describing house sales in King, Washington."
+description: "An interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year."
 ---
 
-## **Dashboard describing House Sales in King Country**
+## **Interactive Tableau Dashboard: King County House Sales Analysis**
 
 -   **Description:** An interactive Tableau dashboard showcasing house sales in King County, Washington, analyzing trends based on the year built, square footage of living space, and square footage of lofts. Users can filter the data by home size, months, and construction year to identify trends in real estate values. The dataset was obtained from [mochen862's GitHub](https://github.com/mochen862/king-county-house-sales). The dashboard features heatmaps, histograms, and line charts to visualize price variations across different home characteristics. This tool offers insights into the King County housing market, making it useful for home buyers, real estate investors, and analysts.
 
