@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "Thyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
+    "text": "King County House Sales\n\n\n\n\n\n\nTableau\n\n\nData Visualization\n\n\n\nAn interactive dashboard describing house sales in King, Washington.\n\n\n\n\n\nFeb 12, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nThyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -68,5 +68,19 @@
     "title": "My CV",
     "section": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024",
     "text": "Deep Reinforcement Learning Agent for Pac-Man | Aug 2024 - Dec 2024\n\nDeveloped a Deep-Q-Network (DQN) agent to play Pac-Man, using decision-making to maximize cumulative rewards and gameplay effectiveness\nImplemented a convolutional neural network (CNN) to process grayscale images, allowing spatial feature recognition for action selection\nConfigured the Atari environment for game-state tracking and integrated frame-skip techniques to improve computational efficiency\nMonitored model performance using metrics such as average score and win rate to achieve improved gameplay and strategic responsiveness."
+  },
+  {
+    "objectID": "posts/kings_dashboard/index.html",
+    "href": "posts/kings_dashboard/index.html",
+    "title": "King County House Sales",
+    "section": "",
+    "text": "Description: An interactive Tableau dashboard showcasing house sales in King County, Washington, analyzing trends based on the year built, square footage of living space, and square footage of lofts. Users can filter the data by home size, months, and construction year to identify trends in real estate values. The dataset was obtained from mochen862’s GitHub. The dashboard features heatmaps, histograms, and line charts to visualize price variations across different home characteristics. This tool offers insights into the King County housing market, making it useful for home buyers, real estate investors, and analysts.\n\n\n\nHere is a screenshot of the dashboard:\n\n\n\nDashboard"
+  },
+  {
+    "objectID": "posts/kings_dashboard/index.html#dashboard-describing-house-sales-in-king-country",
+    "href": "posts/kings_dashboard/index.html#dashboard-describing-house-sales-in-king-country",
+    "title": "King County House Sales",
+    "section": "",
+    "text": "Description: An interactive Tableau dashboard showcasing house sales in King County, Washington, analyzing trends based on the year built, square footage of living space, and square footage of lofts. Users can filter the data by home size, months, and construction year to identify trends in real estate values. The dataset was obtained from mochen862’s GitHub. The dashboard features heatmaps, histograms, and line charts to visualize price variations across different home characteristics. This tool offers insights into the King County housing market, making it useful for home buyers, real estate investors, and analysts.\n\n\n\nHere is a screenshot of the dashboard:\n\n\n\nDashboard"
   }
 ]

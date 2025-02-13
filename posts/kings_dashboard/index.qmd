@@ -18,5 +18,6 @@ Here is a screenshot of the dashboard:
 
 ![Dashboard](kingcounty.png){width="500px"}
 
--   [**View Project on Tableau**](https://public.tableau.com/app/profile/jia.yee.wong/viz/KingCountyHouseSales_17393203393110/KingCountyHouseSales#1){target="_blank"}
----
+-   
+
+    ## [**View Project on Tableau**](https://public.tableau.com/app/profile/jia.yee.wong/viz/KingCountyHouseSales_17393203393110/KingCountyHouseSales#1){target="_blank"}
