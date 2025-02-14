@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "King County House Sales: Trends & Insights Dashboard\n\n\n\n\n\n\nTableau\n\n\nData Visualization\n\n\n\nAn interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.\n\n\n\n\n\nFeb 12, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nThyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
+    "text": "A Valentine’s Day Gift\n\n\n\n\n\n\nPython\n\n\n\nAnimated Heart Visualization with Python and Tkinter.\n\n\n\n\n\nFeb 14, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nKing County House Sales: Trends & Insights Dashboard\n\n\n\n\n\n\nTableau\n\n\nData Visualization\n\n\n\nAn interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.\n\n\n\n\n\nFeb 12, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nThyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -89,5 +89,33 @@
     "title": "King County House Sales: Trends & Insights Dashboard",
     "section": "",
     "text": "Description: An interactive Tableau dashboard showcasing house sales in King County, Washington, analyzing trends based on the year built, square footage of living space, and square footage of lofts. Users can filter the data by home size, months, and construction year to identify trends in real estate values. The dataset was obtained from mochen862’s GitHub. The dashboard features heatmaps, histograms, and line charts to visualize price variations across different home characteristics. This tool offers insights into the King County housing market, making it useful for home buyers, real estate investors, and analysts.\n\n\n\nHere is a screenshot of the dashboard:\n\n\n\nDashboard"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "&lt;img src=\"thyroid_logo2.jpg\" alt=\"Thyroid Cancer\"/&gt;\n&lt;div class=\"tooltip\"&gt;Thyroid Cancer Prediction&lt;/div&gt;\n\n\n&lt;img src=\"kinglogo.png\" alt=\"King County House Sales Analysis\"/&gt;\n&lt;div class=\"tooltip\"&gt;King County House Sales Analysis&lt;/div&gt;"
+  },
+  {
+    "objectID": "posts/valentine/index.html",
+    "href": "posts/valentine/index.html",
+    "title": "A Valentine’s Day Gift",
+    "section": "",
+    "text": "Description: In celebration of Valentine’s Day, this project generates an animated heart visualization using the Tkinter library. The heart shape is mathematically defined using parametric equations, with additional effects such as diffusion, shrinking, and a halo that create a glowing, scattered appearance.\n\nHere is a screen recording of the animation:\n\n\nVideo\nScreen Recording\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/valentine/index.html#thyroid-cancer-prediction-through-machine-learning-methods",
+    "href": "posts/valentine/index.html#thyroid-cancer-prediction-through-machine-learning-methods",
+    "title": "Thyroid Cancer Prediction",
+    "section": "",
+    "text": "Description: The project utilizes machine learning to predict thyroid cancer risk based on patient data obtained from Kaggle. The datasets were preprocessed by encoding categorical variables and standardizing numerical features. A Random Forest Classifier was trained on an 80-20 train-test split, achieving an 82.45% accuracy. The model’s performance was evaluated using precision, recall, F1-score, and a confusion matrix visualization.\n\n\n\nHere is the confusion matrix for the model’s predictions:\n\n\n\nConfusion Matrix\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/valentine/index.html#valentines-day-animated-heart",
+    "href": "posts/valentine/index.html#valentines-day-animated-heart",
+    "title": "A Valentine’s Day Gift",
+    "section": "",
+    "text": "Description: In celebration of Valentine’s Day, this project generates an animated heart visualization using the Tkinter library. The heart shape is mathematically defined using parametric equations, with additional effects such as diffusion, shrinking, and a halo that create a glowing, scattered appearance.\n\nHere is a screen recording of the animation:\n\n\nVideo\nScreen Recording\n\n\n\nView Project on GitHub"
   }
 ]

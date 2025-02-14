@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/valentine/index.html",
       "/posts/kings_dashboard/index.html",
       "/posts/thyroid_project_post/index.html"
     ]
