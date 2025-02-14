@@ -76,4 +76,10 @@ editor: visual
 <img src="kinglogo.png" alt="King County House Sales Analysis"/>
 :::
 
+<div class="project-container">
+
+::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/valentine/'"}
+<img src="valentine_logo.png" alt="A Valentine’s Day Gift"/>
+:::
+
 ------------------------------------------------------------------------
