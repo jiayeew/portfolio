@@ -1,0 +1,11 @@
+---
+title: "Veterans vs. Rising Stars: The Double-Double Dilemma"
+author: "Jia Yee Wong"
+date: "Coming soon"
+categories: ["R","Machine Learning"]
+image: "valentine_logo.png"
+format: html
+description: "Coming soon: Comparing Consistent and Inconsistent Players Across Generations"
+---
+
+------------------------------------------------------------------------
