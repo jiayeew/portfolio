@@ -2,8 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/valentine/index.html",
       "/posts/kings_dashboard/index.html",
+      "/posts/nba_doubledouble/index.html",
+      "/posts/valentine/index.html",
       "/posts/thyroid_project_post/index.html"
     ]
   }
