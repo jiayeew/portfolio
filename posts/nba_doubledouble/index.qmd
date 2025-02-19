@@ -1,11 +1,11 @@
 ---
-title: "Veterans vs. Rising Stars: The Double-Double Dilemma"
+title: "Courtside Contrasts: College Achievements and NBA Realities
 author: "Jia Yee Wong"
 date: "Coming soon"
-categories: ["R","Machine Learning"]
-image: "valentine_logo.png"
+categories: ["Python","Machine Learning"]
+image: ""
 format: html
-description: "Coming soon: Comparing Consistent and Inconsistent Players Across Generations"
----
+description: "Coming soon: Analyzing and predicting the Correlation Between College Basketball Success and NBA Career Outcomes"
+
 
 ------------------------------------------------------------------------
