@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Hi! I’m Jia Yee!",
     "section": "",
-    "text": "A Valentine’s Day Gift\n\n\n\n\n\n\nPython\n\n\n\nAnimated Heart Visualization with Python and Tkinter.\n\n\n\n\n\nFeb 14, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nKing County House Sales: Trends & Insights Dashboard\n\n\n\n\n\n\nTableau\n\n\nData Visualization\n\n\n\nAn interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.\n\n\n\n\n\nFeb 12, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nThyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
+    "text": "Courtside Contrasts: College Achievements and NBA Realities\n\n\n\n\n\n\nPython\n\n\nMachine Learning\n\n\n\nComing soon: Analyzing and Predicting the Correlation Between College Basketball Success and NBA Career Outcomes.\n\n\n\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nBike Sales: Interactive Dashboard in Excel\n\n\n\n\n\n\nExcel\n\n\nData Visualization\n\n\n\nBuilt an interactive Excel dashboard to analyze bike sales, using IF statements, Pivot Tables, and Slicers.\n\n\n\n\n\nMar 8, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Coffee Sales Dashboard in Excel\n\n\n\n\n\n\nExcel\n\n\nData Visualization\n\n\n\nDeveloped an interactive Excel dashboard for analyzing coffee bean sales, using XLOOKUP, INDEX MATCH, Pivot Tables, Slicers, and Timelines to provide a dynamic view into sales trends, customer behavior, and product performance.\n\n\n\n\n\nMar 6, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nA Valentine’s Day Gift\n\n\n\n\n\n\nPython\n\n\n\nAnimated Heart Visualization with Python and Tkinter.\n\n\n\n\n\nFeb 14, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nKing County House Sales: Trends & Insights Dashboard\n\n\n\n\n\n\nTableau\n\n\nData Visualization\n\n\n\nAn interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.\n\n\n\n\n\nFeb 12, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\n\n\n\n\n\n\nThyroid Cancer Prediction\n\n\n\n\n\n\nKaggle\n\n\nMachine Learning\n\n\nPython\n\n\n\nA machine learning project predicting cancer with an 82.45% accuracy.\n\n\n\n\n\nFeb 3, 2025\n\n\nJia Yee Wong\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cv/cv/cv/cv.html",
@@ -117,5 +117,40 @@
     "title": "A Valentine’s Day Gift",
     "section": "",
     "text": "Description: In celebration of Valentine’s Day, this project generates an animated heart visualization using the Tkinter library. The heart shape is mathematically defined using parametric equations, with additional effects such as diffusion, shrinking, and a halo that create a glowing, scattered appearance.\n\nHere is a screen recording of the animation:\n\n\nVideo\nScreen Recording\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/coffee_excel/index.html",
+    "href": "posts/coffee_excel/index.html",
+    "title": "Interactive Coffee Sales Dashboard in Excel",
+    "section": "",
+    "text": "Description: This project features an interactive coffee sales dashboard built in Excel, to efficiently track and analyze coffee bean sales. The dataset was obtained from mochen862’s GitHub. The dashboard incorporates XLOOKUP to retrieve customer data and INDEX MATCH to pull product details, providing accurate and efficient data lookup. It also incorporates Pivot Tables, Slicers, and a Timeline for dynamic filtering, allowing users to explore sales trends seamlessly. These visualizations help businesses optimizeales strategies and better understand customer purchasing behaviors.\nKey features include:\n\nGraphs displaying total sales over time, sales by country, and the top 5 customers.\nFilters for roast type, product size, and loyalty card status using slicers.\nThe IF function to rename abbreviations for better readability.\n\n\nHere is a screenshot of the dashboard and a screen recording of the formula used:\n\n\n\nScreenshot\n\n\n\n\nVideo\nScreen Record\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/coffee_excel/index.html#interactive-excel-dashboard-coffee-bean-sales-analysis",
+    "href": "posts/coffee_excel/index.html#interactive-excel-dashboard-coffee-bean-sales-analysis",
+    "title": "Interactive Coffee Sales Dashboard in Excel",
+    "section": "",
+    "text": "Description: This project features an interactive coffee sales dashboard built in Excel, to efficiently track and analyze coffee bean sales. The dataset was obtained from mochen862’s GitHub. The dashboard incorporates XLOOKUP to retrieve customer data and INDEX MATCH to pull product details, providing accurate and efficient data lookup. It also incorporates Pivot Tables, Slicers, and a Timeline for dynamic filtering, allowing users to explore sales trends seamlessly. These visualizations help businesses optimizeales strategies and better understand customer purchasing behaviors.\nKey features include:\n\nGraphs displaying total sales over time, sales by country, and the top 5 customers.\nFilters for roast type, product size, and loyalty card status using slicers.\nThe IF function to rename abbreviations for better readability.\n\n\nHere is a screenshot of the dashboard and a screen recording of the formula used:\n\n\n\nScreenshot\n\n\n\n\nVideo\nScreen Record\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/bike_excel/index.html",
+    "href": "posts/bike_excel/index.html",
+    "title": "Bike Sales: Interactive Dashboard in Excel",
+    "section": "",
+    "text": "Description: This project features an interactive bike sales dashboard built in Excel, designed to analyze and visualize sales data efficiently. The dataset was obtained from AlexTheAnalyst’s GitHub. It incorporates an IF statement to categorize sales data into different ranges, making it easier to interpret. Pivot Tables are used to summarize key metrics, while Slicers allow users to filter data based on various criteria. The dashboard provides clear visualizations, enabling users to effectively explore sales trends and customer preferences.\n\nHere is a screenshot of the dashboard:\n\n\n\nScreenshot\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/bike_excel/index.html#valentines-day-animated-heart",
+    "href": "posts/bike_excel/index.html#valentines-day-animated-heart",
+    "title": "A Valentine’s Day Gift",
+    "section": "",
+    "text": "Description: In celebration of Valentine’s Day, this project generates an animated heart visualization using the Tkinter library. The heart shape is mathematically defined using parametric equations, with additional effects such as diffusion, shrinking, and a halo that create a glowing, scattered appearance.\n\nHere is a screen recording of the animation:\n\n\nVideo\nScreen Recording\n\n\n\nView Project on GitHub"
+  },
+  {
+    "objectID": "posts/bike_excel/index.html#interactive-excel-dashboard-bike-sales-analysis",
+    "href": "posts/bike_excel/index.html#interactive-excel-dashboard-bike-sales-analysis",
+    "title": "Bike Sales: Interactive Dashboard in Excel",
+    "section": "",
+    "text": "Description: This project features an interactive bike sales dashboard built in Excel, designed to analyze and visualize sales data efficiently. The dataset was obtained from AlexTheAnalyst’s GitHub. It incorporates an IF statement to categorize sales data into different ranges, making it easier to interpret. Pivot Tables are used to summarize key metrics, while Slicers allow users to filter data based on various criteria. The dashboard provides clear visualizations, enabling users to effectively explore sales trends and customer preferences.\n\nHere is a screenshot of the dashboard:\n\n\n\nScreenshot\n\n\n\nView Project on GitHub"
   }
 ]

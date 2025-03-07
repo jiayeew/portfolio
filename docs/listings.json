@@ -2,9 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/kings_dashboard/index.html",
       "/posts/nba_doubledouble/index.html",
+      "/posts/bike_excel/index.html",
+      "/posts/coffee_excel/index.html",
       "/posts/valentine/index.html",
+      "/posts/kings_dashboard/index.html",
       "/posts/thyroid_project_post/index.html"
     ]
   }
