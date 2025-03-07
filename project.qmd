@@ -70,16 +70,23 @@ editor: visual
 <img src="thyroid_logo2.jpg" alt="Thyroid Cancer"/>
 :::
 
-<div class="project-container">
 
 ::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/kings_dashboard/'"}
 <img src="kinglogo.png" alt="King County House Sales Analysis"/>
 :::
 
-<div class="project-container">
 
 ::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/valentine/'"}
 <img src="valentine_logo.png" alt="A Valentine’s Day Gift"/>
 :::
+
+::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/coffee_excel/'"}
+<img src="coffeelogo.png" alt="Coffee Salest"/>
+:::
+
+::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/bike_excel/'"}
+<img src="bikelogo.png" alt="Bike Sales"/>
+:::
+
 
 ------------------------------------------------------------------------
