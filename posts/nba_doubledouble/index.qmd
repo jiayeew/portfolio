@@ -1,11 +1,9 @@
 ---
-title: "Courtside Contrasts: College Achievements and NBA Realities
+title: "Courtside Contrasts: College Achievements and NBA Realities"
 author: "Jia Yee Wong"
-date: "Coming soon"
-categories: ["Python","Machine Learning"]
+date: ""
+categories: ["Python", "Machine Learning"]
 image: ""
 format: html
-description: "Coming soon: Analyzing and predicting the Correlation Between College Basketball Success and NBA Career Outcomes"
-
-
-------------------------------------------------------------------------
+description: "Coming soon: Analyzing and Predicting the Correlation Between College Basketball Success and NBA Career Outcomes."
+---
