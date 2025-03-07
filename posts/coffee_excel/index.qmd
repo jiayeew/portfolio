@@ -3,7 +3,7 @@ title: "Interactive Coffee Sales Dashboard in Excel"
 author: "Jia Yee Wong"
 date: "2025-03-06"
 categories: ["Excel", "Data Visualization"]
-image: ""
+image: "coffeelogo.png"
 format: html
 description: "Developed an interactive Excel dashboard for analyzing coffee bean sales, using XLOOKUP, INDEX MATCH, Pivot Tables, Slicers, and Timelines to provide a dynamic view into sales trends, customer behavior, and product performance."
 ---
