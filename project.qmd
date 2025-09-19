@@ -65,7 +65,7 @@ editor: visual
 </style>
 ```
 
-:::::::: project-container
+::::::::: project-container
 ::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/thyroid_project_post/'"}
 <img src="thyroid_logo2.jpg" alt="Thyroid Cancer"/>
 :::
@@ -89,5 +89,6 @@ editor: visual
 ::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/workplace%20safety/'"}
 <img src="workplacelogo.png" alt="Workplace Safety Analysis"/>
 :::
+
 ------------------------------------------------------------------------
-::::::::
+:::::::::

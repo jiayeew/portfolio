@@ -6,7 +6,7 @@ website:
   title: "Jia Yee Wong"
   navbar:
     title: false 
-    logo: logo.JPG
+    logo: logo.png
     logo-alt: "Home"
     right:
       - about.qmd
