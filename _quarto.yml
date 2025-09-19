@@ -11,8 +11,6 @@ website:
     right:
       - about.qmd
       - project.qmd
-      - text: Resume
-        href: Resume.pdf
       - icon: github
         href: https://github.com/
   page-footer:
