@@ -1,0 +1,22 @@
+---
+title: "Bike Sales: Interactive Dashboard in Excel"
+author: "Jia Yee Wong"
+date: "2025-03-08"
+categories: ["Excel", "Data Visualization"]
+image: "bikelogo.png"
+format: html
+description: "Built an interactive Excel dashboard to analyze bike sales, using IF statements, Pivot Tables, and Slicers."
+---
+
+## **Interactive Excel Dashboard: Bike Sales Analysis**
+
+-   **Description:** This project features an interactive bike sales dashboard built in Excel, designed to analyze and visualize sales data efficiently. The dataset was obtained from  [AlexTheAnalyst's GitHub](https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx). It incorporates an IF statement to categorize sales data into different ranges, making it easier to interpret. Pivot Tables are used to summarize key metrics, while Slicers allow users to filter data based on various criteria. The dashboard provides clear visualizations, enabling users to effectively explore sales trends and customer preferences.
+
+Here is a screenshot of the dashboard:
+
+![Screenshot](bikesshot.png){width="650px"}
+
+
+-   [**View Project on GitHub**](https://github.com/jiayeew/projects/blob/main/bikesales.xlsx){target="_blank"}
+
+------------------------------------------------------------------------
