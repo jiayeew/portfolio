@@ -2,7 +2,7 @@
 title: "A Valentine’s Day Gift"
 author: "Jia Yee Wong"
 date: "2025-02-14"
-categories: ["Python"]
+categories: ["Python", "Tkinter"]
 image: "valentine_logo.png"
 format: html
 description: "Animated Heart Visualization with Python and Tkinter."

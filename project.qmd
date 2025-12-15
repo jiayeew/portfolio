@@ -1,94 +1,55 @@
 ---
-title: "My Projects"
-format: html
-editor: visual
+title: "Projects"
+page-layout: full
+listing:
+  # Section 1: Machine Learning & AI 
+  - id: ml-section
+    contents: posts 
+    type: grid
+    grid-columns: 4
+    sort: "date desc"
+    categories: false 
+    include:
+      categories: ["Machine Learning", "Data Science"] 
+    fields: [image, title, description, categories]
+    page-size: 3
+
+  #  Section 2: Data Visualization & Analysis 
+  - id: viz-section
+    contents: posts
+    type: grid
+    grid-columns: 4
+    sort: "date desc"
+    categories: false
+    include:
+      categories: ["Data Visualization", "Dashboards", "Excel Analysis", "Business Report"] 
+    fields: [image, title, description, categories]
+    page-size: 6 
+
+  # --- Section 3: Creative Coding ---
+  - id: creative-section
+    contents: posts
+    type: grid
+    grid-columns: 4
+    sort: "date desc"
+    categories: false
+    include:
+      categories: ["Tkinter"]
+    fields: [image, title, description, categories]
+    page-size: 3
 ---
 
-```{=html}
-<style>
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+## Machine Learning & AI
 
-.project-box {
-  width: 245px;
-  height: 220px;
-  background: #f5f5f5;
-  border-radius: 10px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-box:hover {
-  transform: scale(1.05);
-}
-
-.project-box img {
-  width: 100%;
-  height: auto;
-  max-height: 98%;
-  object-fit: contain;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-/* Tooltip Styling */
-.tooltip {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 5px;
-  font-size: 14px;
-  white-space: nowrap;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.project-box:hover .tooltip {
-  opacity: 1;
-  visibility: visible;
-}
-</style>
-```
-
-::::::::: project-container
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/thyroid_project_post/'"}
-<img src="thyroid_logo2.jpg" alt="Thyroid Cancer"/>
+::: {#ml-section}
 :::
 
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/kings_dashboard/'"}
-<img src="kinglogo.png" alt="King County House Sales Analysis"/>
+## Data Visualization & Analysis
+
+::: {#viz-section}
 :::
 
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/valentine/'"}
-<img src="valentine_logo.png" alt="A Valentine’s Day Gift"/>
-:::
+## Creative Coding
 
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/coffee_excel/'"}
-<img src="coffeelogo.png" alt="Coffee Salest"/>
+::: {#creative-section}
 :::
-
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/bike_excel/'"}
-<img src="bikelogo.png" alt="Bike Sales"/>
-:::
-
-::: {.project-box onclick="window.location.href='https://jiayeew.github.io/portfolio/posts/workplace%20safety/'"}
-<img src="workplacelogo.png" alt="Workplace Safety Analysis"/>
-:::
-
-------------------------------------------------------------------------
-:::::::::
