@@ -1,0 +1,21 @@
+---
+title: "Workplace Safety Analysis"
+author: "Jia Yee Wong"
+date: "2025-05-07"
+categories: ["R", "Business Report"]
+image: "workplacelogo.png"
+format: html
+description: "A business report investigating workplace injury patterns across oﬀice and non-oﬀice environments in the United States."
+---
+
+## **Workplace Safety Analysis**
+
+-   **Description:** This business report investigates workplace injury patterns across office and non-office environments in the United States, focusing on financial impacts and regional trends. Statistical analyses, including t-tests, ANOVA, and correlations, were used to evaluate injury costs and causes. The findings indicate that non-office environments contribute a greater proportion of total injury costs (30.81%) compared to office environments (23.88%). Office-related injuries, though less frequent, often involve same-level falls and may carry higher costs per incident. Non-office injuries are primarily caused by falls to lower levels and being struck by objects. Regional injury rates vary across states, suggesting the need for localized safety assessments. Targeted prevention strategies are recommended, particularly in office environments, to reduce fall-related incidents.
+
+-   [**Business Report**](Evaluation-of-Not-Safe-For-Work.pdf)
+
+-   [**Presentation Slides**](bus-report.pptx){target="_blank" rel="noopener"}
+
+-   [Office Comparion R-code](officecomparison.R)
+
+-   [State Comparion R-code](statecomparison.R)

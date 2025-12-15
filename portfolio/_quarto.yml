@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jia Yee Wong"
+  navbar:
+    title: false 
+    logo: logo.png
+    logo-alt: "Home"
+    right:
+      - about.qmd
+      - project.qmd
+      - icon: github
+        href: https://github.com/
+  page-footer:
+    background: dark # or `dark`
+    left: Copyright 2025, Jia Yee Wong
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/samanthacsik/samanthacsik.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
+      
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+
+editor: visual
+
