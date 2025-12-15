@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hi! I’m Jia Yee! – Jia Yee Wong</title>
+<title>Hi, I’m Jia Yee! – Jia Yee Wong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5746a73b2147df1dadec818b04dcdd8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-bdc38f173d4614950632463fb1b6c08b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -73,20 +73,104 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-all-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-all-projects'] = new List('listing-all-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-machine-learning .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-machine-learning'] = new List('listing-machine-learning', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-data-viz .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-data-viz'] = new List('listing-data-viz', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-creative-coding .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-creative-coding'] = new List('listing-creative-coding', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -151,15 +235,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About me</span></a>
+    <a class="nav-link" href="./index.html#about-me"> 
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./project.html"> 
+    <a class="nav-link" href="./index.html#projects"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/jiayeew"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -173,13 +257,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Hi! I’m Jia Yee!</h1>
+    <div class="quarto-title column-page">
+      <h1 class="title">Hi, I’m Jia Yee!</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -190,35 +274,50 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QnVzaW5lc3MlMjBSZXBvcnQ=">Business Report <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RXhjZWw=">Excel <span class="quarto-category-count">(2)</span></div><div class="category" data-category="S2FnZ2xl">Kaggle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFibGVhdQ==">Tableau <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGtpbnRlcg==">Tkinter <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="UiUyQ0J1c2luZXNzJTIwUmVwb3J0" data-listing-date-sort="1746594000000" data-listing-file-modified-sort="1758254018550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
-<div class="thumbnail">
-<p><a href="./posts/workplace safety/index.html" class="no-external"></a></p><a href="./posts/workplace safety/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/workplace safety/workplacelogo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/workplace safety/index.html" class="no-external"></a></p>
+<section id="about-me" class="level1" style="padding-top: 100px; margin-top: -100px;">
+<h1 style="padding-top: 100px; margin-top: -100px;">About Me</h1>
+<div class="grid">
+<div class="g-col-12 g-col-md-3" style="text-align: left;">
+<p><img src="profile.jpg" class="img-fluid rounded-circle" style="width: 200px; height: 200px; object-fit: cover;" alt="Jia Yee Wong"></p>
+<div class="btn-group" role="group">
+<p><a href="https://www.linkedin.com/in/jiayee-wong/" class="btn btn-outline-primary btn-sm" role="button"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i> LinkedIn</a> <a href="https://github.com/jiayeew" class="btn btn-outline-primary btn-sm" role="button" style="margin-left: 10px;"><i class="fa-brands fa-github" aria-label="github"></i> Github</a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/workplace safety/index.html" class="no-external">Workplace Safety Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/workplace safety/index.html" class="no-external"></a>
 </div>
+<div class="g-col-12 g-col-md-8">
+<p>I am a Data Science undergraduate at the University of Nebraska-Lincoln. My specialization is in building robust <strong>Data Pipelines</strong>, applying <strong>Statistical Modeling</strong>, and developing <strong>Artificial Intelligence</strong> solutions to solve real-world problems.</p>
+<p>Outside of school, I love exercising and binge-watching dramas.</p>
+</div>
+</div>
+<div style="height: 50px;">
+
+</div>
+</section>
+<section id="projects" class="level1" style="padding-top: 100px; margin-top: -100px;">
+<h1 style="padding-top: 100px; margin-top: -100px;">Projects</h1>
+<div class="tabset-margin-container"></div><div class="panel-tabset custom-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">ALL CATEGORIES</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MACHINE LEARNING</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">DATA VISUALIZATION</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">CREATIVE CODING</a></li></ul>
+<div class="tab-content custom-tabset">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="listing-all-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ0J1c2luZXNzJTIwUmVwb3J0" data-listing-date-sort="1746594000000" data-listing-file-modified-sort="1758254018550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<a href="./posts/workplace safety/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/workplace safety/workplacelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="projects">
+Workplace Safety Analysis
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
 R
@@ -227,34 +326,23 @@ R
 Business Report
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/workplace safety/index.html" class="no-external">A business report investigating workplace injury patterns across oﬀice and non-oﬀice environments in the United States.</a>
+<div class="card-text listing-description">
+A business report investigating workplace injury patterns across oﬀice and non-oﬀice environments in the United States.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/workplace safety/index.html" class="no-external">
-<div class="listing-date">
-May 7, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741390261600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<div class="thumbnail">
-<p><a href="./posts/bike_excel/index.html" class="no-external"></a></p><a href="./posts/bike_excel/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/bike_excel/bikelogo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/bike_excel/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/bike_excel/index.html" class="no-external">Bike Sales: Interactive Dashboard in Excel</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/bike_excel/index.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="1" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741390261600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<a href="./posts/bike_excel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/bike_excel/bikelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bike Sales: Interactive Dashboard in Excel
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">
 Excel
@@ -263,34 +351,23 @@ Excel
 Data Visualization
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/bike_excel/index.html" class="no-external">Built an interactive Excel dashboard to analyze bike sales, using IF statements, Pivot Tables, and Slicers.</a>
+<div class="card-text listing-description">
+Built an interactive Excel dashboard to analyze bike sales, using IF statements, Pivot Tables, and Slicers.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/bike_excel/index.html" class="no-external">
-<div class="listing-date">
-Mar 8, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741240800000" data-listing-file-modified-sort="1765757909315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
-<div class="thumbnail">
-<p><a href="./posts/coffee_excel/index.html" class="no-external"></a></p><a href="./posts/coffee_excel/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/coffee_excel/coffeelogo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/coffee_excel/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/coffee_excel/index.html" class="no-external">Interactive Coffee Sales Dashboard in Excel</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/coffee_excel/index.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="2" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741240800000" data-listing-file-modified-sort="1765757909315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+<a href="./posts/coffee_excel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/coffee_excel/coffeelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Interactive Coffee Sales Dashboard in Excel
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">
 Excel
@@ -299,34 +376,23 @@ Excel
 Data Visualization
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/coffee_excel/index.html" class="no-external">Developed an interactive Excel dashboard for analyzing coffee bean sales, using XLOOKUP, INDEX MATCH, Pivot Tables, Slicers, and Timelines.</a>
+<div class="card-text listing-description">
+Developed an interactive Excel dashboard for analyzing coffee bean sales, using XLOOKUP, INDEX MATCH, Pivot Tables, Slicers, and Timelines.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/coffee_excel/index.html" class="no-external">
-<div class="listing-date">
-Mar 6, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="UHl0aG9uJTJDVGtpbnRlcg==" data-listing-date-sort="1739512800000" data-listing-file-modified-sort="1765757004978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail">
-<p><a href="./posts/valentine/index.html" class="no-external"></a></p><a href="./posts/valentine/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/valentine/valentine_logo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/valentine/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/valentine/index.html" class="no-external">A Valentine’s Day Gift</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/valentine/index.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="3" data-categories="UHl0aG9uJTJDVGtpbnRlcg==" data-listing-date-sort="1739512800000" data-listing-file-modified-sort="1765757004978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="./posts/valentine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/valentine/valentine_logo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Valentine’s Day Gift
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
 Python
@@ -335,34 +401,23 @@ Python
 Tkinter
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/valentine/index.html" class="no-external">Animated Heart Visualization with Python and Tkinter.</a>
+<div class="card-text listing-description">
+Animated Heart Visualization with Python and Tkinter.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/valentine/index.html" class="no-external">
-<div class="listing-date">
-Feb 14, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="VGFibGVhdSUyQ0RhdGElMjBWaXN1YWxpemF0aW9u" data-listing-date-sort="1739340000000" data-listing-file-modified-sort="1739502476882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<div class="thumbnail">
-<p><a href="./posts/kings_dashboard/index.html" class="no-external"></a></p><a href="./posts/kings_dashboard/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/kings_dashboard/kinglogo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/kings_dashboard/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/kings_dashboard/index.html" class="no-external">King County House Sales: Trends &amp; Insights Dashboard</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/kings_dashboard/index.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="4" data-categories="VGFibGVhdSUyQ0RhdGElMjBWaXN1YWxpemF0aW9u" data-listing-date-sort="1739340000000" data-listing-file-modified-sort="1739502476882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<a href="./posts/kings_dashboard/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/kings_dashboard/kinglogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+King County House Sales: Trends &amp; Insights Dashboard
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">
 Tableau
@@ -371,34 +426,23 @@ Tableau
 Data Visualization
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/kings_dashboard/index.html" class="no-external">An interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.</a>
+<div class="card-text listing-description">
+An interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/kings_dashboard/index.html" class="no-external">
-<div class="listing-date">
-Feb 12, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="S2FnZ2xlJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDUHl0aG9u" data-listing-date-sort="1738562400000" data-listing-file-modified-sort="1765757388968" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<div class="thumbnail">
-<p><a href="./posts/thyroid_project_post/index.html" class="no-external"></a></p><a href="./posts/thyroid_project_post/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/thyroid_project_post/thyroid_logo2.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/thyroid_project_post/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/thyroid_project_post/index.html" class="no-external">Thyroid Cancer Prediction</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/thyroid_project_post/index.html" class="no-external"></a>
-</div>
+<div class="g-col-1" data-index="5" data-categories="S2FnZ2xlJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDUHl0aG9u" data-listing-date-sort="1738562400000" data-listing-file-modified-sort="1765757388968" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<a href="./posts/thyroid_project_post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/thyroid_project_post/thyroid_logo2.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thyroid Cancer Prediction
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('S2FnZ2xl'); return false;">
 Kaggle
@@ -410,26 +454,207 @@ Machine Learning
 Python
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/thyroid_project_post/index.html" class="no-external">A machine learning project predicting thyroid cancer with an 82.45% accuracy.</a>
+<div class="card-text listing-description">
+A machine learning project predicting thyroid cancer with an 82.45% accuracy.
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/thyroid_project_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 3, 2025
-</div>
-<div class="listing-author">
-Jia Yee Wong
 </div>
 </a>
-</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-machine-learning" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="S2FnZ2xlJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDUHl0aG9u" data-listing-date-sort="1738562400000" data-listing-file-modified-sort="1765757388968" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<a href="./posts/thyroid_project_post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/thyroid_project_post/thyroid_logo2.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thyroid Cancer Prediction
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('S2FnZ2xl'); return false;">
+Kaggle
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">
+Machine Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+</div>
+<div class="card-text listing-description">
+A machine learning project predicting thyroid cancer with an 82.45% accuracy.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div id="listing-data-viz" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741413600000" data-listing-file-modified-sort="1741390261600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<a href="./posts/bike_excel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/bike_excel/bikelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bike Sales: Interactive Dashboard in Excel
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">
+Excel
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+Built an interactive Excel dashboard to analyze bike sales, using IF statements, Pivot Tables, and Slicers.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RXhjZWwlMkNEYXRhJTIwVmlzdWFsaXphdGlvbg==" data-listing-date-sort="1741240800000" data-listing-file-modified-sort="1765757909315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161">
+<a href="./posts/coffee_excel/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/coffee_excel/coffeelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Interactive Coffee Sales Dashboard in Excel
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RXhjZWw='); return false;">
+Excel
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+Developed an interactive Excel dashboard for analyzing coffee bean sales, using XLOOKUP, INDEX MATCH, Pivot Tables, Slicers, and Timelines.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="VGFibGVhdSUyQ0RhdGElMjBWaXN1YWxpemF0aW9u" data-listing-date-sort="1739340000000" data-listing-file-modified-sort="1739502476882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<a href="./posts/kings_dashboard/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/kings_dashboard/kinglogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+King County House Sales: Trends &amp; Insights Dashboard
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">
+Tableau
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">
+Data Visualization
+</div>
+</div>
+<div class="card-text listing-description">
+An interactive dashboard visualizing house sales trends in King County, Washington, highlighting patterns in pricing, home size, and construction year.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div id="listing-creative-coding" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ0J1c2luZXNzJTIwUmVwb3J0" data-listing-date-sort="1746594000000" data-listing-file-modified-sort="1758254018550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<a href="./posts/workplace safety/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/workplace safety/workplacelogo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workplace Safety Analysis
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBSZXBvcnQ='); return false;">
+Business Report
+</div>
+</div>
+<div class="card-text listing-description">
+A business report investigating workplace injury patterns across oﬀice and non-oﬀice environments in the United States.
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHl0aG9uJTJDVGtpbnRlcg==" data-listing-date-sort="1739512800000" data-listing-file-modified-sort="1765757004978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<a href="./posts/valentine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/valentine/valentine_logo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Valentine’s Day Gift
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VGtpbnRlcg=='); return false;">
+Tkinter
+</div>
+</div>
+<div class="card-text listing-description">
+Animated Heart Visualization with Python and Tkinter.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

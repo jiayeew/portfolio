@@ -1,12 +1,93 @@
 ---
-title: "Hi! I'm Jia Yee!"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: " Hi, I'm Jia Yee!"
 page-layout: full
 title-block-banner: true
+
+listing:
+  - id: all-projects
+    contents: posts
+    type: grid
+    sort: "date desc"
+    categories: false
+    fields: [image, title, description, categories]
+    page-size: 9
+
+  - id: machine-learning
+    contents: posts
+    type: grid
+    sort: "date desc"
+    categories: false
+    include:
+      categories: ["Data Science", "Machine Learning"]
+    fields: [image, title, description, categories]
+    page-size: 9
+
+  - id: data-viz
+    contents: posts
+    type: grid
+    sort: "date desc"
+    categories: false
+    include:
+      categories: ["Data Visualization", "Dashboards", "Excel"]
+    fields: [image, title, description, categories]
+    page-size: 9
+
+  - id: creative-coding
+    contents: posts
+    type: grid
+    sort: "date desc"
+    categories: false
+    include:
+      categories: ["Creative Coding", "Tkinter", "Business Report"]
+    fields: [image, title, description, categories]
+    page-size: 9
 ---
+
+# About Me {#about-me style="padding-top: 100px; margin-top: -100px;"}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-3 style="text-align: left;"}
+<img src="profile.jpg"
+     class="img-fluid rounded-circle"
+     style="width: 200px; height: 200px; object-fit: cover;"
+     alt="Jia Yee Wong">
+
+::: {.btn-group role="group"}
+[ {{< fa brands linkedin >}} LinkedIn ](https://www.linkedin.com/in/jiayee-wong/){.btn .btn-outline-primary .btn-sm role="button"}
+[ {{< fa brands github >}} Github ](https://github.com/jiayeew){.btn .btn-outline-primary .btn-sm role="button" style="margin-left: 10px;"}
+:::
+
+:::
+::: {.g-col-12 .g-col-md-8}
+
+
+I am a Data Science undergraduate at the University of Nebraska-Lincoln. My specialization is in building robust **Data Pipelines**, applying **Statistical Modeling**, and developing **Artificial Intelligence** solutions to solve real-world problems.
+
+Outside of school, I love exercising and binge-watching dramas.
+:::
+:::
+
+<div style="height: 50px;"></div>
+
+# Projects {#projects style="padding-top: 100px; margin-top: -100px;"}
+
+
+::: {.panel-tabset .custom-tabset}
+
+## ALL CATEGORIES
+::: {#all-projects}
+:::
+
+## MACHINE LEARNING
+::: {#machine-learning}
+:::
+
+## DATA VISUALIZATION
+::: {#data-viz}
+:::
+
+## CREATIVE CODING
+::: {#creative-coding}
+:::
+
+:::

@@ -3,7 +3,36 @@
     aspect-ratio: 21 / 9;
     object-fit: cover;
     width: 100%;
+    justify-content: flex-start;
 }
 .card-img-top {
   object-fit: contain;
 }
+
+
+.custom-tabset .nav-tabs {
+    border-bottom: none;
+    background-color: rgba(147, 155, 121); 
+    padding: 15px 0; 
+    justify-content: center; 
+    margin-bottom: 30px; 
+    gap: 10px; 
+}
+
+.custom-tabset .nav-link {
+    color: rgba(250, 250, 250, 0.8); 
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none !important; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    background-color: transparent !important;
+    transition: all 0.3s ease; 
+}
+.custom-tabset .nav-link.active,
+.custom-tabset .nav-link:hover {
+    color: #ffffff !important; 
+    background-color: rgba(255, 255, 255, 0.15) !important; 
+    position: relative;
+}
+
