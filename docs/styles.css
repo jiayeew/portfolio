@@ -4,3 +4,6 @@
     object-fit: cover;
     width: 100%;
 }
+.card-img-top {
+  object-fit: contain;
+}
