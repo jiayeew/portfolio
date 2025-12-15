@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/workplace safety/index.html",
-      "/posts/bike_excel/index.html",
-      "/posts/coffee_excel/index.html",
-      "/posts/valentine/index.html",
-      "/posts/kings_dashboard/index.html",
-      "/posts/thyroid_project_post/index.html"
-    ]
-  },
-  {
     "listing": "/project.html",
     "items": [
       "/posts/thyroid_project_post/index.html",
@@ -22,15 +11,14 @@
     ]
   },
   {
-    "listing": "/portfolio/index.html",
+    "listing": "/index.html",
     "items": [
-      "/portfolio/posts/nba_doubledouble/index.html",
-      "/portfolio/posts/workplace safety/index.html",
-      "/portfolio/posts/bike_excel/index.html",
-      "/portfolio/posts/coffee_excel/index.html",
-      "/portfolio/posts/valentine/index.html",
-      "/portfolio/posts/kings_dashboard/index.html",
-      "/portfolio/posts/thyroid_project_post/index.html"
+      "/posts/workplace safety/index.html",
+      "/posts/bike_excel/index.html",
+      "/posts/coffee_excel/index.html",
+      "/posts/valentine/index.html",
+      "/posts/kings_dashboard/index.html",
+      "/posts/thyroid_project_post/index.html"
     ]
   }
 ]
